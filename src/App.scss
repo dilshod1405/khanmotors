@@ -1,0 +1,24 @@
+.App{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    
+}
+
+@media screen and (min-width: 360px) and (max-width: 431px){
+    .App{
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 539px) and (max-width: 1281px){
+    .App{
+        width: auto;
+        display: flex;
+        margin: auto;
+    }
+}

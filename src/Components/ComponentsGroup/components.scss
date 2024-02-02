@@ -1,0 +1,22 @@
+.Components{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: #F8F9F9;
+    flex: 1;
+    z-index: 4;
+    
+}
+
+@media screen and (min-width: 279px) and (max-width: 431px){
+    .Components{
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1281px){
+    .Components{
+        width: auto;
+        
+    }
+}

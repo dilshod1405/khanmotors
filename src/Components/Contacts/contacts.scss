@@ -1,0 +1,161 @@
+.Contacts{
+    z-index: 1;
+    padding-bottom: 3%;
+    .map{
+        h4{
+            font-size: 24px;
+            padding: 2% 8%;
+            color: #2F4050;
+        }
+
+        iframe{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+    }
+
+    .info{
+        padding-top: 3%;
+        display: flex;
+        justify-content: center;
+        padding-left: 5%;
+
+        ul{
+            width: 50%;
+            margin: auto;
+            display: block;
+            padding-left: 0;
+            h4{
+                color: #2F4050;
+                
+            }
+
+            li{
+                display: block;
+                margin: auto;
+                padding: 1% 0%;
+            }
+
+            .media{
+                padding-left: 5.5%;
+
+                .link{
+                    color: #009148;
+                    text-decoration: none;
+                    font-weight: 500;
+                }
+                
+
+            }
+
+            
+            }
+            
+        }
+
+        .message{
+            display: block;
+
+            form{
+
+                .form-control{
+                    height: 15vh;
+                    width: 500px;
+                    margin-top: 15px;
+                    border-radius: 0;
+                    border: #009148 solid 1px;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+                }
+
+
+                .btn{
+                    transition: 0.4s;
+                    margin-top: 3%;
+                    border-radius: 0;
+                    width: 500px;
+                    background-color: #2F4050;
+
+                    &:hover{
+                        background-color: #009148;
+                        transition: 0.4s;
+                    }
+                    
+                }
+            }
+        }
+
+    }
+
+  
+    @media screen and (min-width: 279px) and (max-width: 431px){
+        .Contacts{
+            position: relative;
+            z-index: 0;
+            padding-bottom: 10%;
+            .map{
+                h4{
+                    padding-left: 5%;
+                }
+
+                iframe{
+                    z-index: 1;
+                }
+            }
+
+            .info{
+                padding-left: 5%;
+                width: auto;
+                display: inline-block;
+
+                ul{
+                    width: auto;
+
+                    h4{
+                        left: 0%;
+                    }
+
+                }
+
+                .message{
+                    margin-top: 5%;
+                    padding-left: 5%;
+
+                    form{
+                        .form-control{
+                            width: 300px;
+                            margin-top: 3%;
+
+                        }
+
+                        .btn{
+                            width: 300px;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+@media screen and (min-width: 540px) and (max-width: 1281px){
+        .Contacts{
+            width: auto;
+            .info{
+                .message{
+
+                    form{
+                        .form-control{
+                            width: 200px;
+                            height: 6vh;
+                        }
+
+                        .btn{
+                            width: 200px;
+                        }
+                    }
+                    
+                }
+            }
+            
+        }
+    }

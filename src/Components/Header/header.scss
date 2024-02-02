@@ -1,0 +1,23 @@
+.Header{
+    padding-left: 5%;
+    height: 8vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    background-color: #fff;
+    z-index: 2;
+}
+
+@media screen and (min-width: 279px) and (max-width: 431px){
+    .Header{
+        z-index: 1;
+        height: 6vh;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1281px){
+    .Header{
+        height: 5vh;
+    }
+}
