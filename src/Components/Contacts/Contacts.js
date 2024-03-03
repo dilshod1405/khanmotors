@@ -20,7 +20,7 @@ export default class Contacts extends Component {
             <li className="media"><Link className='link' to={'/'} target='blank'><Telegram data-aos="zoom-in"  data-aos-delay="500"/> Telegram sahifa</Link></li>
             <li className="media"><Link className='link' to={'/'} target='blank'><Facebook data-aos="zoom-in"  data-aos-delay="700"/> Facebook sahifa</Link></li>
             <li className="media"><p className='link' style={{height: '2vh'}}><PinDrop data-aos="zoom-in"  data-aos-delay="900"/> Toshkent, Yangi Sergeli ko'chasi 22-uy</p></li>
-            <li className="media"><p className='link' style={{height: '2vh'}}><Call data-aos="zoom-in"  data-aos-delay="1100"/> +998 95 818 83 94</p></li>
+            <li className="media"><p className='link' style={{height: '2vh'}}><Call data-aos="zoom-in"  data-aos-delay="1100"/> +998 93 704 14 05</p></li>
           </ul>
           <ul className="message">
             <h4><Message style={{fontSize: '32px', color:'#009148'}} data-aos="zoom-in" data-aos-delay="500"/> Xabar qoldirish</h4>
